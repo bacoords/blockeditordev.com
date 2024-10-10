@@ -92,8 +92,12 @@
 		{
 			"name": "page-no-title",
 			"title": "Page with no title"
+		},
+		{
+			"name": "page-no-header",
+			"title": "Page with no header"
 		}
 	],
-	"version": 2,
+	"version": 3,
 	"$schema": "https://schemas.wp.org/trunk/theme.json"
 }
