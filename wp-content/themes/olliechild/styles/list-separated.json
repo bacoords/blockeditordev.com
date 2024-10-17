@@ -1,0 +1,10 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "List Separated",
+	"slug": "list-separated",
+	"blockTypes": ["core/list"],
+	"styles": {
+		"css": "list-style-position:inside; padding-left:0; & li { padding-bottom:var(--wp--preset--spacing--small); margin-top:var(--wp--preset--spacing--small);} & li:not(:last-of-type){ border-bottom: 1px solid var(--wp--preset--color--main);} & li::marker{opacity: 0.2; font-size:var(--wp--preset--font-size--small);}"
+	}
+}
